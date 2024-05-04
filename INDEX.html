@@ -28,17 +28,13 @@
     <h2 class="mt-4 text-light">Enter Text to Play</h2>
     <div>
         <form id="textInputForm">
-        <input type="text" id="textInput"  style="border: 1px solid rgba(233, 54, 54, 0.867); background-color: rgba(81, 70, 70, 0.644); border-radius: 8px; height: 80px; width: 1300px; placeholder = "Enter text...">
-        <button type="button" id="speakButton" class="btn btn-primary">Speak</button> 
+        <input type="text" id="textInput"style="border: 1px solid rgba(233, 54, 54, 0.867); background-color: gray; border-radius: 8px; height: 80px; width: 1300px; placeholder="Enter text...">
+        <button id="speakButton" class="btn btn-primary">Speak</button> 
     </form> </div>
     <div class="mt-4">
       <button class="btn btn-success" id="start">Start</button>
       <button class="btn btn-danger" id="stop">Stop</button>
       <button class="btn btn-primary" id="listen">Listen</button>
-    
-
-
-      <p id="status" class="lead mt-3 text-light" style="display: none">Listenting ...</p>
     </div>
   </body>
   <script src="./recognition.js"></script>
