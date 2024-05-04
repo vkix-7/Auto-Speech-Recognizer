@@ -16,7 +16,7 @@
     <div class="mt-4" id="div_language">
       <h2 style="margin-top: -45px;" class="mb-3 text-light">Select Language</h2>
       <select class="form-select bg-secondary text-light" id="select_language" onchange="updateCountry()"></select>
-      <!-- <select class="form-select bg-secondary text-light mt-2" id="select_dialect"></select> -->
+      <select class="form-select bg-secondary text-light mt-2" id="select_dialect">
     </div>
     <p class="lead text-light mt-4">Select Voice</p>
     <select id="voices" class="form-select bg-secondary text-light"></select>
@@ -29,7 +29,7 @@
       <button class="btn btn-success" id="start">Start</button>
       <button class="btn btn-danger" id="stop">Stop</button>
       <button class="btn btn-primary" id="listen">Listen</button>
-      <!-- <button id="listen" class="btn btn-primary">Listen</button> -->
+     <button id="listen" class="btn btn-primary">Listen</button> 
 
 
       <p id="status" class="lead mt-3 text-light" style="display: none">Listenting ...</p>
@@ -37,5 +37,5 @@
   </body>
   <script src="./speechRecognition.js"></script>
   <script src="./language.js"></script>
-  <!-- <script src="./textToSpeech.js"></script> -->
+  <script src="./textToSpeech.js"></script>
 </html>
